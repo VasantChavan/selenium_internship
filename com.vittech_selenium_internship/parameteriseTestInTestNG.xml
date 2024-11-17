@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameter suite">
+	<parameter name="uname" value="vasant@facebook.com" />
+	<parameter name="pwrd" value="vasant@123$" />
+	<test name="Para Test">
+		<classes>
+			<class name="com.testng.ParameriseTestInTestNG" />
+		</classes>
+	</test>
+</suite>
